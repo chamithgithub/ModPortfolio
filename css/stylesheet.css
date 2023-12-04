@@ -129,6 +129,8 @@ section {
   border-radius: 4rem;
   box-shadow: 0 0 1rem var(--main-color);
 }
+
+/* about */
 .about {
   display: flex;
   justify-content: center;
@@ -149,6 +151,8 @@ section {
   text-align-last: left;
   line-height: 1.2;
 }
+
+/* services */
 
 .services h2 {
   margin-bottom: 5rem;
@@ -185,6 +189,88 @@ section {
   font-size: 2.7rem;
 }
 
+/* skills */
+
+#skills {
+  position: relative;
+  height: 75vw;
+  box-shadow: 2px 2px 2px 2px #282626;
+  border: solid black 2px;
+}
+.skill-div1 {
+  position: relative;
+  width: calc(90% / 3);
+  height: 20%;
+  box-shadow: 10px 13px 8px -5px var(--main-color);
+  background-color: #d9d9d9;
+  border: 0.3vw solid black;
+
+  transition-delay: 0s;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.skill-div2 {
+  position: relative;
+  bottom: 10%;
+}
+.skills-h1 {
+  position: relative;
+  text-align: center;
+  color: #1a1717;
+  font-size: 2vw;
+}
+
+.skills-img {
+  position: relative;
+  width: 20%;
+  height: 40%;
+  right: -5%;
+}
+
+.skill-div1:hover {
+  background-image: linear-gradient(
+    90deg,
+    rgb(46, 29, 165) 0%,
+    rgb(33, 217, 14) 100%
+  );
+  cursor: pointer;
+  box-shadow: 0 0 0 0 #f1bbbb;
+  transition-delay: 0s;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#skills > div:nth-child(2) {
+  left: 1%;
+}
+
+#skills > div:nth-child(3) {
+  top: -11%;
+  right: -35%;
+}
+
+#skills > div:nth-child(4) {
+  top: -21%;
+  right: -68%;
+}
+
+#skills > div:nth-child(5) {
+  top: -31%;
+  left: 1%;
+}
+
+#skills > div:nth-child(6) {
+  top: -41%;
+  right: -35%;
+}
+
+#skills > div:nth-child(7) {
+  top: -51%;
+  right: -68%;
+}
+
+/* portfolio */
 .portfolio {
   flex: 1 1 25rem;
   background: var(--second-bg-color);
@@ -254,6 +340,7 @@ section {
   margin: 0.3rem 0 1rem;
 }
 
+/* contact */
 .contact h2 {
   margin-bottom: 3rem;
 }
@@ -293,6 +380,7 @@ section {
   cursor: pointer;
 }
 
+/* footer */
 .footer {
   display: flex;
   justify-content: space-between;
