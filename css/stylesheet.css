@@ -340,6 +340,143 @@ section {
   margin: 0.3rem 0 1rem;
 }
 
+/*---Education-----*/
+#education {
+  position: relative;
+  background: url("../img/backgrond.jpg");
+  height: 75vw;
+  box-shadow: 2px 2px 2px 2px #282626;
+  border: solid black 2px;
+}
+#education > aside {
+  position: relative;
+  width: 90%;
+  height: 80%;
+  right: -5%;
+  border: 3px solid #ff0000;
+}
+.white-circle {
+  position: relative;
+  /*background-color: #59ff00;*/
+  border-radius: 100%;
+  height: 2vw;
+  width: 2vw;
+}
+.blue-circle {
+  position: relative;
+  background-color: #0004ff;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+}
+.blue-line {
+  position: relative;
+  background-color: #001aff;
+  height: 1%;
+  width: 9vw;
+}
+#education > aside > div:nth-child(3) {
+  position: relative;
+  background-color: white;
+  height: 45vw;
+  width: 1%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#education > aside > div:nth-child(4) {
+  left: 49%;
+  background-color: #ec0606;
+}
+
+#education > aside > div:nth-child(5) {
+  left: 49%;
+  top: -18%;
+  /*background-color: black;*/
+}
+#education > aside > div:nth-child(6) {
+  left: 39%;
+  top: -20%;
+  /*background-color: #0a21ff;*/
+}
+
+#education > aside > div:nth-child(7) {
+  left: 49%;
+  top: -40%;
+  /*background-color: #ff5c00;*/
+}
+
+#education > aside > div:nth-child(8) {
+  left: 49%;
+  top: -60%;
+  /*background-color: #d200ff;*/
+}
+#education > aside > div:nth-child(9) {
+  /*/ background-color: #683607;*/
+  left: 51%;
+  top: -45.5%;
+}
+
+#education > aside > div:nth-child(10) {
+  /*background-color: #02ffff;*/
+  left: 49%;
+  top: -85%;
+}
+
+#education > aside > div:nth-child(11) {
+  background-color: #f30606;
+  left: 49%;
+  top: -97%;
+}
+
+#education > aside > div:nth-child(12) {
+  /*background-color: #fcef02;*/
+  left: 39%;
+  top: -70%;
+}
+#education > aside > div:nth-child(13) {
+  /*background-color: #e00000;*/
+  left: 51%;
+  top: -91.5%;
+}
+.education-div {
+  position: relative;
+  font-size: 1vw;
+  text-align: center;
+  color: #ff0202;
+  width: 30%;
+  height: 8vw;
+  border: 4px solid #000cff;
+}
+
+.education-div:hover {
+  font-size: 1.1vw;
+
+  transition-delay: 0s;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#education > aside > div:nth-child(14) {
+  right: -61%;
+  top: -98%;
+}
+
+#education > aside > div:nth-child(15) {
+  top: -93%;
+  right: -8.5%;
+}
+
+#education > aside > div:nth-child(16) {
+  top: -89.5%;
+  right: -61%;
+}
+#education > aside > div:nth-child(17) {
+  top: -86.5%;
+  left: 8.5%;
+}
 /* contact */
 .contact h2 {
   margin-bottom: 3rem;
