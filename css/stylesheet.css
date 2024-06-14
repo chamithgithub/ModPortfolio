@@ -33,22 +33,27 @@ section {
   padding: 10rem 9% 2rem;
 }
 
+
+/* Heading  */
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: var(--main-color);
+  margin-bottom: 5rem;
+}
+
 /* Header */
 .header {
   position: fixed;
+  display: flex;
   top: 0;
   left: 0;
   width: 100%;
   padding: 2rem 9%;
   background: var(--bg-color);
-  display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-}
-
-.header.sticky {
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -58,11 +63,20 @@ section {
   cursor: default;
 }
 
+.navbar ul{
+  display:flex;
+  list-style-type: none;
+}
+
+
+
+
 .navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
   margin-left: 4rem;
   transition: 0.3s;
+
 }
 
 .navbar a:hover,
@@ -228,11 +242,7 @@ section {
   height: 35rem;
 }
 
-.heading {
-  text-align: center;
-  font-size: 4.5rem;
-  color: var(--main-color);
-}
+
 
 .about-content i {
   font-size: 4.5rem;
@@ -297,11 +307,9 @@ section {
   justify-content: center;
   align-items: center;
   padding: 0 10%;
+
 }
 
-.services h2 {
-  margin-bottom: 5rem;
-}
 
 .services-container {
   display: grid;
@@ -374,13 +382,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 0 10%;
-}
 
-.skills .heading {
-  text-align: center;
-  font-size: 4rem;
-  color: var(--main-color);
-  margin-bottom: 5rem;
 }
 
 
@@ -434,14 +436,6 @@ section {
   padding: 0 10%;
 }
 
-.projects .heading {
-  text-align: center;
-  font-size: 4rem;
-  color: var(--main-color);
-  margin-bottom: 5rem;
-}
-
-
 
 .projects-container {
   display: grid;
@@ -483,7 +477,6 @@ section {
 .contact {
   
   height: 100vh;
-
   background: var(--second-bg-color);
   background-size: cover;
   background-position: center;
@@ -494,24 +487,12 @@ section {
   padding: 0 10%;
 }
 
-
-.contact .heading {
-  text-align: center;
-  font-size: 4rem;
-  color: var(--main-color);
-  margin-bottom: 5rem;
-}
+.contact .
 
 .contact-form {
- 
   height: 80vh;
   width: 90vh;
-
 }
-
-
-
-
 
 input[type="text"],
 input[type="email"],
@@ -567,6 +548,8 @@ textarea {
 
 /* Footer */
 .footer {
+  margin: 0;
+  padding: 0;
   text-align: center;
   padding: 2rem;
   border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
@@ -604,15 +587,10 @@ textarea {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
   .navbar {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 0;
-    background: var(--bg-color);
-    transition: 0.3s;
+    display: none;
+
   }
 
   .navbar.active {

@@ -1,27 +1,7 @@
-// let sections = document.querySelectorAll("section");
-// let navLinks = document.querySelectorAll("header nav a");
 
-// window.onscroll = () => {
-//   sections.forEach((sec) => {
-//     let top = window.screenY;
-//     let offset = sec.offsetTop;
-//     let height = sec.offsetHeight;
-//     let id = sec.getAttribute("id");
 
-//     if (top >= offset && top < offset + height) {
-//       navLinks.forEach((links) => {
-//         links.classList.remove("active");
-//         document
-//           .querySelector("header nav a[href*=" + id + "]")
-//           .classList.add("active");
-//       });
-//     }
-//   });
+// send email
 
-//   // ================
-//   let header = document.querySelector("header");
-//   header.classList.toggle("stiicky", window.scrollY > 100);
-// };
 const form =document.querySelector('form');
 const fullname =document.getElementById("name");
 const email =document.getElementById("email");
@@ -60,3 +40,13 @@ form.addEventListener("submit",(e) => {
    return false;
 
 })
+
+
+// document.addEventListener('DOMContentLoaded', function () {
+//   const menuIcon = document.getElementById('menu-icon');
+//   const navbar = document.getElementById('navbar').querySelector('ul');
+
+//   menuIcon.addEventListener('click', function () {
+//       navbar.classList.toggle('active');
+//   });
+// });
